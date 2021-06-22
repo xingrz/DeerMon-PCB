@@ -460,17 +460,6 @@ F 3 "~" H 8700 1100 50  0001 C CNN
 	1    8700 1100
 	1    0    0    -1  
 $EndComp
-$Comp
-L RF_Module:ESP32-PICO-D4 U4
-U 1 1 60D54A12
-P 7800 2700
-F 0 "U4" H 7650 1100 50  0000 R CNN
-F 1 "ESP32-PICO-D4" H 7650 1000 50  0000 R CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm" H 7800 1000 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf" H 8050 1700 50  0001 C CNN
-	1    7800 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 1000 7600 1100
 Wire Wire Line
@@ -498,7 +487,6 @@ NoConn ~ 7000 1500
 NoConn ~ 7000 1600
 NoConn ~ 7000 1700
 NoConn ~ 7000 1800
-NoConn ~ 7000 2700
 NoConn ~ 7000 2800
 NoConn ~ 7000 2900
 NoConn ~ 7000 3000
@@ -1090,31 +1078,23 @@ F 3 "~" H 2800 1100 50  0001 C CNN
 	1    2800 1100
 	1    0    0    -1  
 $EndComp
-Text Label 9000 2000 2    50   ~ 0
+Text Label 9000 3200 2    50   ~ 0
 LCD_DC
 Wire Wire Line
-	9000 2000 8600 2000
-Text Label 9000 2100 2    50   ~ 0
+	9000 3200 8600 3200
+Text Label 9000 3300 2    50   ~ 0
 LCD_RES
 Wire Wire Line
-	9000 2100 8600 2100
-Text Label 9000 2200 2    50   ~ 0
+	9000 3300 8600 3300
+Text Label 9000 3400 2    50   ~ 0
 BLK
 Text Label 3950 4100 0    50   ~ 0
 BLK
 Wire Wire Line
-	9000 2200 8600 2200
+	9000 3400 8600 3400
 NoConn ~ 8600 1700
 NoConn ~ 8600 1900
 NoConn ~ 8600 2300
-NoConn ~ 8600 2700
-NoConn ~ 8600 2800
-NoConn ~ 8600 2900
-NoConn ~ 8600 3000
-NoConn ~ 8600 3100
-NoConn ~ 8600 3200
-NoConn ~ 8600 3300
-NoConn ~ 8600 3400
 NoConn ~ 8600 3500
 NoConn ~ 8600 3600
 NoConn ~ 8600 3700
@@ -1318,4 +1298,49 @@ F 3 "~" H 5500 6300 50  0001 C CNN
 	1    5500 6300
 	0    1    1    0   
 $EndComp
+$Comp
+L JLC-SMT:ESP32-PICO-V3-02 U4
+U 1 1 60D2D55C
+P 7800 2700
+F 0 "U4" H 7650 1150 50  0000 R CNN
+F 1 "ESP32-PICO-V3-02" H 7650 1050 50  0000 R CNN
+F 2 "JLC-SMT:QFN-48-1EP_7x7mm_P0.5mm_EP4x4mm_ThermalVias" H 7800 1000 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf" H 8050 1700 50  0001 C CNN
+	1    7800 2700
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6950 3050 7450 3050
+Text Notes 6950 3050 2    50   ~ 0
+Reserved\nfor flash\nof D4
+Wire Notes Line
+	8100 2050 8650 2050
+Wire Notes Line
+	8650 2250 8100 2250
+Wire Notes Line
+	6950 3050 6950 2750
+Wire Notes Line
+	6950 2750 7450 2750
+Wire Notes Line
+	7450 2750 7450 3050
+Text Notes 8100 2250 2    50   ~ 0
+Reserved\nfor PSRAM\nof V3-02
+Text Notes 8300 2350 2    50   ~ 0
+HSPIQ (MISO)
+Text Notes 8300 2450 2    50   ~ 0
+HSPID (MOSI)
+Wire Notes Line
+	8100 2250 8100 2050
+Wire Notes Line
+	8650 2050 8650 2250
+Text Notes 8300 2550 2    50   ~ 0
+HSPICLK
+Text Notes 8300 2650 2    50   ~ 0
+HSPICS0
+NoConn ~ 8600 2000
+NoConn ~ 8600 2100
+NoConn ~ 8600 2200
+NoConn ~ 8600 2800
+NoConn ~ 8600 2900
+NoConn ~ 8600 3000
 $EndSCHEMATC

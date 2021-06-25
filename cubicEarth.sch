@@ -536,10 +536,6 @@ Text Label 9000 2500 2    50   ~ 0
 LCD_SCL
 Wire Wire Line
 	9000 2500 8600 2500
-Text Label 9000 2600 2    50   ~ 0
-LCD_CS
-Wire Wire Line
-	9000 2600 8600 2600
 $Comp
 L Interface_USB:CP2102N-A01-GQFN24 U1
 U 1 1 60D722B9
@@ -711,7 +707,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 4450 2300 4450
 Wire Wire Line
-	2200 4450 2200 3850
+	2200 4450 2200 4050
 Wire Wire Line
 	2200 3350 2300 3350
 Connection ~ 2200 4450
@@ -800,8 +796,6 @@ Wire Wire Line
 	2100 3550 2300 3550
 Text Label 1800 3950 0    50   ~ 0
 LCD_DC
-Text Label 1800 4050 0    50   ~ 0
-LCD_CS
 Text Label 1800 4150 0    50   ~ 0
 LCD_SCL
 Text Label 1800 4250 0    50   ~ 0
@@ -819,8 +813,6 @@ Wire Wire Line
 	1800 4250 2300 4250
 Wire Wire Line
 	1800 4150 2300 4150
-Wire Wire Line
-	1800 4050 2300 4050
 Wire Wire Line
 	1800 3950 2300 3950
 Text Label 4750 5600 0    50   ~ 0
@@ -981,56 +973,6 @@ F 3 "" H 1100 5500 50  0001 C CNN
 	1    1100 5500
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C2
-U 1 1 60F8FE3C
-P 1400 5850
-F 0 "C2" V 1450 5800 50  0000 R CNN
-F 1 "100nF" V 1450 5900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1438 5700 50  0001 C CNN
-F 3 "~" H 1400 5850 50  0001 C CNN
-F 4 "SAMSUNG 三星" H 1400 5850 50  0001 C CNN "Manufacturer"
-F 5 "C1525" H 1400 5850 50  0001 C CNN "PartNumber"
-F 6 "JLC" H 1400 5850 50  0001 C CNN "Source"
-	1    1400 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 60F9113E
-P 1200 5850
-F 0 "C1" V 1250 5800 50  0000 R CNN
-F 1 "4.7uF" V 1250 5900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1238 5700 50  0001 C CNN
-F 3 "~" H 1200 5850 50  0001 C CNN
-F 4 "SAMSUNG 三星" H 1200 5850 50  0001 C CNN "Manufacturer"
-F 5 "C23733" H 1200 5850 50  0001 C CNN "PartNumber"
-F 6 "JLC" H 1200 5850 50  0001 C CNN "Source"
-	1    1200 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 60FA5382
-P 1200 6000
-F 0 "#PWR04" H 1200 5750 50  0001 C CNN
-F 1 "GND" H 1200 5850 50  0000 C CNN
-F 2 "" H 1200 6000 50  0001 C CNN
-F 3 "" H 1200 6000 50  0001 C CNN
-	1    1200 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 60FA5749
-P 1400 6000
-F 0 "#PWR05" H 1400 5750 50  0001 C CNN
-F 1 "GND" H 1400 5850 50  0000 C CNN
-F 2 "" H 1400 6000 50  0001 C CNN
-F 3 "" H 1400 6000 50  0001 C CNN
-	1    1400 6000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 6800 2800 6800
 Wire Wire Line
@@ -1118,17 +1060,17 @@ Text Label 9000 3400 2    50   ~ 0
 LCD_DC
 Wire Wire Line
 	9000 3200 8600 3200
-Text Label 9000 3300 2    50   ~ 0
+Text Label 9000 1700 2    50   ~ 0
 LCD_RES
 Wire Wire Line
-	9000 3300 8600 3300
+	9000 1700 8600 1700
 Text Label 9000 3200 2    50   ~ 0
 BLK
 Text Label 3950 4100 0    50   ~ 0
 BLK
 Wire Wire Line
 	9000 3400 8600 3400
-NoConn ~ 8600 1700
+NoConn ~ 8600 3300
 NoConn ~ 8600 1900
 NoConn ~ 8600 2300
 NoConn ~ 8600 3500
@@ -1177,16 +1119,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 5500 3300 5500
 Wire Wire Line
-	1100 5500 1200 5500
-Wire Wire Line
-	1400 5500 1400 5700
-Connection ~ 1400 5500
-Wire Wire Line
-	1200 5500 1200 5700
-Connection ~ 1200 5500
-Wire Wire Line
-	1200 5500 1400 5500
-Wire Wire Line
 	2800 6500 2800 6700
 Wire Wire Line
 	1800 6500 2800 6500
@@ -1219,7 +1151,7 @@ U 1 1 60D2D55C
 P 7800 2700
 F 0 "U4" H 7650 1150 50  0000 R CNN
 F 1 "ESP32-PICO-V3-02" H 7650 1050 50  0000 R CNN
-F 2 "JLC-SMT:QFN-48-1EP_7x7mm_P0.5mm_EP4x4mm_ThermalVias" H 7800 1000 50  0001 C CNN
+F 2 "JLC-SMT:ESP32-PICO_QFN-48_7x7mm_P0.5mm_EP4.5x4.5mm_ThermalVias" H 7800 1000 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf" H 8050 1700 50  0001 C CNN
 F 4 "ESPRESSIF 乐鑫" H 7800 2700 50  0001 C CNN "Manufacturer"
 F 5 "C908392" H 7800 2700 50  0001 C CNN "PartNumber"
@@ -1270,8 +1202,6 @@ Wire Wire Line
 	10100 3500 10700 3500
 Wire Wire Line
 	9500 3600 9500 3500
-Wire Wire Line
-	1400 5500 2400 5500
 $Comp
 L Transistor_BJT:BC847BDW1 Q1
 U 1 1 60D52C08
@@ -1355,4 +1285,86 @@ Wire Wire Line
 Connection ~ 4250 1500
 Wire Wire Line
 	4250 1500 4350 1500
+Wire Wire Line
+	1600 5500 1600 5700
+Wire Wire Line
+	1800 5500 1800 5700
+$Comp
+L power:GND #PWR05
+U 1 1 60FA5749
+P 1800 6000
+F 0 "#PWR05" H 1800 5750 50  0001 C CNN
+F 1 "GND" H 1800 5850 50  0000 C CNN
+F 2 "" H 1800 6000 50  0001 C CNN
+F 3 "" H 1800 6000 50  0001 C CNN
+	1    1800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 60FA5382
+P 1600 6000
+F 0 "#PWR04" H 1600 5750 50  0001 C CNN
+F 1 "GND" H 1600 5850 50  0000 C CNN
+F 2 "" H 1600 6000 50  0001 C CNN
+F 3 "" H 1600 6000 50  0001 C CNN
+	1    1600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60F9113E
+P 1600 5850
+F 0 "C1" V 1650 5800 50  0000 R CNN
+F 1 "4.7uF" V 1650 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1638 5700 50  0001 C CNN
+F 3 "~" H 1600 5850 50  0001 C CNN
+F 4 "SAMSUNG 三星" H 1600 5850 50  0001 C CNN "Manufacturer"
+F 5 "C23733" H 1600 5850 50  0001 C CNN "PartNumber"
+F 6 "JLC" H 1600 5850 50  0001 C CNN "Source"
+	1    1600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60F8FE3C
+P 1800 5850
+F 0 "C2" V 1850 5800 50  0000 R CNN
+F 1 "100nF" V 1850 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1838 5700 50  0001 C CNN
+F 3 "~" H 1800 5850 50  0001 C CNN
+F 4 "SAMSUNG 三星" H 1800 5850 50  0001 C CNN "Manufacturer"
+F 5 "C1525" H 1800 5850 50  0001 C CNN "PartNumber"
+F 6 "JLC" H 1800 5850 50  0001 C CNN "Source"
+	1    1800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4050 2200 4050
+Connection ~ 2200 4050
+Wire Wire Line
+	2200 4050 2200 3850
+NoConn ~ 8600 2600
+Wire Wire Line
+	1600 5500 1800 5500
+Connection ~ 1800 5500
+Wire Wire Line
+	1800 5500 2400 5500
+$Comp
+L Device:R_US R?
+U 1 1 60D77C09
+P 1250 5500
+F 0 "R?" V 1300 5400 50  0000 R CNN
+F 1 "0" V 1300 5600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1290 5490 50  0001 C CNN
+F 3 "~" H 1250 5500 50  0001 C CNN
+F 4 "UNIOHM 台湾厚声" H 1250 5500 50  0001 C CNN "Manufacturer"
+F 5 "C17168" H 1250 5500 50  0001 C CNN "PartNumber"
+F 6 "JLC" H 1250 5500 50  0001 C CNN "Source"
+	1    1250 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 5500 1600 5500
+Connection ~ 1600 5500
 $EndSCHEMATC

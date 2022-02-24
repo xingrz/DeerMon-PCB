@@ -1024,22 +1024,6 @@ Wire Wire Line
 Connection ~ 1800 5500
 Wire Wire Line
 	1800 5500 2400 5500
-$Comp
-L Device:R_US R11
-U 1 1 60D77C09
-P 1250 5500
-F 0 "R11" V 1045 5500 50  0000 C CNN
-F 1 "0" V 1136 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1290 5490 50  0001 C CNN
-F 3 "~" H 1250 5500 50  0001 C CNN
-F 4 "UNIOHM 台湾厚声" H 1250 5500 50  0001 C CNN "Manufacturer"
-F 5 "C17168" H 1250 5500 50  0001 C CNN "PartNumber"
-F 6 "JLC" H 1250 5500 50  0001 C CNN "Source"
-	1    1250 5500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1400 5500 1600 5500
 Connection ~ 1600 5500
 Connection ~ 1400 2600
 NoConn ~ 1100 2600
@@ -1725,4 +1709,6 @@ Wire Notes Line
 	11150 5050 6550 5050
 Text Notes 6550 5200 0    100  ~ 0
 Outlets
+Wire Wire Line
+	1100 5500 1600 5500
 $EndSCHEMATC

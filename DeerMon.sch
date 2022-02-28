@@ -869,7 +869,7 @@ F 2 "Diode_SMD:D_SOD-523" H 2800 2050 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 2800 2050 50  0001 C CNN
 F 4 "LRC 乐山无线电" H 2800 2050 50  0001 C CNN "Manufacturer"
 F 5 "C136167" H 2800 2050 50  0001 C CNN "PartNumber"
-F 6 "TAOBAO" H 2800 2050 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 2800 2050 50  0001 C CNN "Source"
 	1    2800 2050
 	0    1    1    0   
 $EndComp
@@ -883,7 +883,7 @@ F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 3850 5600 50  0001 L
 F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 3450 5350 50  0001 C CNN
 F 4 "SILICON LABS 芯科" H 3400 6400 50  0001 C CNN "Manufacturer"
 F 5 "C969151" H 3400 6400 50  0001 C CNN "PartNumber"
-F 6 "TAOBAO" H 3400 6400 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 3400 6400 50  0001 C CNN "Source"
 	1    3400 6400
 	1    0    0    -1  
 $EndComp
@@ -897,7 +897,7 @@ F 2 "JLC-SMT:AW9364DNR_DFN2x2-8L" H 3300 3950 50  0001 C CNN
 F 3 "" H 3300 3950 50  0001 C CNN
 F 4 "AWINIC 艾为" H 3500 3700 50  0001 C CNN "Manufacturer"
 F 5 "C401007" H 3500 3700 50  0001 C CNN "PartNumber"
-F 6 "LCSC" H 3500 3700 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 3500 3700 50  0001 C CNN "Source"
 	1    3500 3700
 	1    0    0    -1  
 $EndComp
@@ -967,7 +967,7 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 1290 6490 50  0001 C CNN
 F 3 "~" H 1250 6500 50  0001 C CNN
 F 4 "UNIOHM 台湾厚声" H 1250 6500 50  0001 C CNN "Manufacturer"
 F 5 "C43473" H 1250 6500 50  0001 C CNN "PartNumber"
-F 6 "LCSC" H 1250 6500 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 1250 6500 50  0001 C CNN "Source"
 	1    1250 6500
 	0    1    1    0   
 $EndComp
@@ -981,7 +981,7 @@ F 2 "Resistor_SMD:R_0402_1005Metric" V 1840 6740 50  0001 C CNN
 F 3 "~" H 1800 6750 50  0001 C CNN
 F 4 "UNIOHM 台湾厚声" H 1800 6750 50  0001 C CNN "Manufacturer"
 F 5 "C25896" H 1800 6750 50  0001 C CNN "PartNumber"
-F 6 "LCSC" H 1800 6750 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 1800 6750 50  0001 C CNN "Source"
 	1    1800 6750
 	1    0    0    -1  
 $EndComp
@@ -995,7 +995,7 @@ F 2 "Package_TO_SOT_SMD:SOT-563" H 5700 6400 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 5500 6300 50  0001 C CNN
 F 4 "DIODES 美台" H 5500 6300 50  0001 C CNN "Manufacturer"
 F 5 "C150761" H 5500 6300 50  0001 C CNN "PartNumber"
-F 6 "LCSC" H 5500 6300 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 5500 6300 50  0001 C CNN "Source"
 	1    5500 6300
 	0    1    1    0   
 $EndComp
@@ -1009,7 +1009,7 @@ F 2 "Package_TO_SOT_SMD:SOT-563" H 5700 6900 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 5500 6800 50  0001 C CNN
 F 4 "DIODES 美台" H 5500 6800 50  0001 C CNN "Manufacturer"
 F 5 "C150761" H 5500 6800 50  0001 C CNN "PartNumber"
-F 6 "LCSC" H 5500 6800 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 5500 6800 50  0001 C CNN "Source"
 	2    5500 6800
 	0    -1   -1   0   
 $EndComp
@@ -1051,7 +1051,7 @@ F 2 "Diode_SMD:D_SOD-523" H 2600 2050 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 2600 2050 50  0001 C CNN
 F 4 "LRC 乐山无线电" H 2600 2050 50  0001 C CNN "Manufacturer"
 F 5 "C136167" H 2600 2050 50  0001 C CNN "PartNumber"
-F 6 "TAOBAO" H 2600 2050 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 2600 2050 50  0001 C CNN "Source"
 	1    2600 2050
 	0    1    1    0   
 $EndComp
@@ -1065,7 +1065,7 @@ F 2 "Diode_SMD:D_SOD-523" H 2400 2050 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 2400 2050 50  0001 C CNN
 F 4 "LRC 乐山无线电" H 2400 2050 50  0001 C CNN "Manufacturer"
 F 5 "C136167" H 2400 2050 50  0001 C CNN "PartNumber"
-F 6 "TAOBAO" H 2400 2050 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 2400 2050 50  0001 C CNN "Source"
 	1    2400 2050
 	0    1    1    0   
 $EndComp
@@ -1149,7 +1149,7 @@ F 2 "JLC-SMT:HRO_TYPE-C-31-M-12" H 1550 1700 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1550 1700 50  0001 C CNN
 F 4 "HRO 韩荣" H 1400 1700 50  0001 C CNN "Manufacturer"
 F 5 "C165948" H 1400 1700 50  0001 C CNN "PartNumber"
-F 6 "LCSC" H 1400 1700 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 1400 1700 50  0001 C CNN "Source"
 	1    1400 1700
 	1    0    0    -1  
 $EndComp
@@ -1256,11 +1256,11 @@ L Device:Buzzer BZ1
 U 1 1 622FB269
 P 5500 3600
 F 0 "BZ1" V 5551 3412 50  0000 R CNN
-F 1 "TMB12A05" V 5460 3412 50  0000 R CNN
-F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 5475 3700 50  0001 C CNN
+F 1 "HMB1206-05" V 5460 3412 50  0000 R CNN
+F 2 "JLC-SMT:HNDZ_TMB1206-05" V 5475 3700 50  0001 C CNN
 F 3 "~" V 5475 3700 50  0001 C CNN
-F 4 "华能" H 5500 3600 50  0001 C CNN "Manufacturer"
-F 5 "C96093" H 5500 3600 50  0001 C CNN "PartNumber"
+F 4 "HNDZ 华能" H 5500 3600 50  0001 C CNN "Manufacturer"
+F 5 "C96095" H 5500 3600 50  0001 C CNN "PartNumber"
 F 6 "JLC-EXT" H 5500 3600 50  0001 C CNN "Source"
 	1    5500 3600
 	0    -1   -1   0   
@@ -1273,6 +1273,9 @@ F 0 "J3" H 7500 6417 50  0000 C CNN
 F 1 "GPIO" H 7500 6326 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical" H 7450 5800 50  0001 C CNN
 F 3 "~" H 7450 5800 50  0001 C CNN
+F 4 "CONNFLY" H 7450 5800 50  0001 C CNN "Manufacturer"
+F 5 "C132125" H 7450 5800 50  0001 C CNN "PartNumber"
+F 6 "JLC-EXT" H 7450 5800 50  0001 C CNN "Source"
 	1    7450 5800
 	1    0    0    -1  
 $EndComp
@@ -1391,7 +1394,7 @@ F 2 "JLC-SMT:ESP32-PICO_QFN-48_7x7mm_P0.5mm_EP4.5x4.5mm_ThermalVias" H 9800 1300
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf" H 10050 2000 50  0001 C CNN
 F 4 "ESPRESSIF 乐鑫" H 9800 3000 50  0001 C CNN "Manufacturer"
 F 5 "C908392" H 9800 3000 50  0001 C CNN "PartNumber"
-F 6 "TAOBAO" H 9800 3000 50  0001 C CNN "Source"
+F 6 "JLC-EXT" H 9800 3000 50  0001 C CNN "Source"
 	1    9800 3000
 	1    0    0    -1  
 $EndComp
@@ -1697,7 +1700,7 @@ F 1 "10uF" H 7086 2005 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7238 1900 50  0001 C CNN
 F 3 "~" H 7200 2050 50  0001 C CNN
 F 4 "SAMSUNG 三星" H 7200 2050 50  0001 C CNN "Manufacturer"
-F 5 "" H 7200 2050 50  0001 C CNN "PartNumber"
+F 5 "C15525" H 7200 2050 50  0001 C CNN "PartNumber"
 F 6 "JLC" H 7200 2050 50  0001 C CNN "Source"
 	1    7200 2050
 	1    0    0    -1  
@@ -1786,6 +1789,9 @@ F 0 "C7" H 7086 2796 50  0000 R CNN
 F 1 "100pF" H 7086 2705 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7238 2600 50  0001 C CNN
 F 3 "~" H 7200 2750 50  0001 C CNN
+F 4 "FH 风华" H 7200 2750 50  0001 C CNN "Manufacturer"
+F 5 "C1546" H 7200 2750 50  0001 C CNN "PartNumber"
+F 6 "JLC" H 7200 2750 50  0001 C CNN "Source"
 	1    7200 2750
 	1    0    0    -1  
 $EndComp

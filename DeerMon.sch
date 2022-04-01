@@ -810,17 +810,9 @@ Outlets
 Wire Wire Line
 	1100 5500 1600 5500
 Wire Wire Line
-	6950 5700 7250 5700
-Text Label 6950 5700 0    50   ~ 0
-IO19
-Wire Wire Line
 	8050 5800 7750 5800
 Text Label 8050 5800 2    50   ~ 0
 IO5
-Wire Wire Line
-	8050 5700 7750 5700
-Text Label 8050 5700 2    50   ~ 0
-IO22
 Text Label 8700 4000 2    50   ~ 0
 BOOT
 $Comp
@@ -1373,14 +1365,10 @@ Wire Wire Line
 	11000 2800 10600 2800
 Text Label 11000 2000 2    50   ~ 0
 LCD_DC
-Wire Wire Line
-	8700 3400 9000 3400
 Text Label 11000 2200 2    50   ~ 0
 LCD_RST
 Wire Wire Line
 	11000 2200 10600 2200
-Text Label 8700 3400 0    50   ~ 0
-BLK
 Wire Wire Line
 	11000 2000 10600 2000
 NoConn ~ 10600 2600
@@ -1399,19 +1387,9 @@ F 6 "JLC-EXT" H 9800 3000 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	8950 3350 9450 3350
-Text Notes 9450 3350 0    50   ~ 0
-Reserved\nfor flash\nof D4
-Wire Notes Line
 	10100 2350 10650 2350
 Wire Notes Line
 	10650 2550 10100 2550
-Wire Notes Line
-	8950 3350 8950 3050
-Wire Notes Line
-	8950 3050 9450 3050
-Wire Notes Line
-	9450 3050 9450 3350
 Text Notes 10100 2550 2    50   ~ 0
 Reserved\nfor PSRAM\nof V3-02
 Text Notes 10300 2650 2    50   ~ 0
@@ -1451,16 +1429,8 @@ Wire Wire Line
 	10900 2300 10600 2300
 Wire Wire Line
 	10600 3700 10900 3700
-Text Label 10900 3100 2    50   ~ 0
-IO19
-Wire Wire Line
-	10900 3100 10600 3100
 Text Label 11000 3200 2    50   ~ 0
 RMT_RGB
-Text Label 10900 3300 2    50   ~ 0
-IO22
-Wire Wire Line
-	10900 3300 10600 3300
 Text Label 10900 3600 2    50   ~ 0
 IO26
 Wire Wire Line
@@ -1481,12 +1451,8 @@ Text Label 10900 4100 2    50   ~ 0
 IO35
 Wire Wire Line
 	10900 4100 10600 4100
-Text Label 8700 3500 0    50   ~ 0
-BZ_EN
 Text Label 10900 3500 2    50   ~ 0
 IO25
-Wire Wire Line
-	8700 3500 9000 3500
 NoConn ~ 11000 1600
 Wire Wire Line
 	10600 3500 10900 3500
@@ -2156,4 +2122,52 @@ F 3 "~" H 10500 6750 50  0001 C CNN
 	1    10500 6750
 	1    0    0    -1  
 $EndComp
+Text Label 11000 3300 2    50   ~ 0
+BZ_EN
+NoConn ~ 9000 3400
+NoConn ~ 9000 3500
+Wire Notes Line
+	8950 3550 9500 3550
+Wire Notes Line
+	8950 3050 8950 3550
+Text Notes 9500 3550 0    50   ~ 0
+Reserved\nfor flash
+Wire Notes Line
+	8950 3050 9500 3050
+Wire Notes Line
+	9500 3050 9500 3550
+Wire Wire Line
+	10600 3300 11000 3300
+Wire Wire Line
+	10600 3100 11000 3100
+Text Label 11000 3100 2    50   ~ 0
+BLK
+$Comp
+L power:GND #PWR0120
+U 1 1 625AB6EC
+P 6950 5700
+F 0 "#PWR0120" H 6950 5450 50  0001 C CNN
+F 1 "GND" H 6950 5550 50  0001 C CNN
+F 2 "" H 6950 5700 50  0001 C CNN
+F 3 "" H 6950 5700 50  0001 C CNN
+	1    6950 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 5700 7250 5700
+$Comp
+L power:GND #PWR0121
+U 1 1 625B5F0F
+P 8050 5700
+F 0 "#PWR0121" H 8050 5450 50  0001 C CNN
+F 1 "GND" H 8050 5550 50  0001 C CNN
+F 2 "" H 8050 5700 50  0001 C CNN
+F 3 "" H 8050 5700 50  0001 C CNN
+	1    8050 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 5700 7750 5700
+Text Notes 4900 4800 0    50   ~ 0
+BZ_EN is LO by default,\nthus BZ1 is not active
 $EndSCHEMATC

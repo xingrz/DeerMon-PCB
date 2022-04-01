@@ -358,41 +358,26 @@ Wire Wire Line
 	5500 5600 6100 5600
 Wire Wire Line
 	6100 5700 5500 5700
-Text Label 6100 7000 2    50   ~ 0
+Text Label 4750 7000 0    50   ~ 0
 DTR
-Text Label 4750 6000 0    50   ~ 0
+Text Label 6100 6100 2    50   ~ 0
 RTS
 Text Label 4750 6700 0    50   ~ 0
 EN
 Text Label 6100 6400 2    50   ~ 0
 BOOT
 Wire Wire Line
-	5500 6000 5500 6100
-Wire Wire Line
 	5700 6400 6100 6400
-Wire Wire Line
-	5800 6000 5500 6000
-Connection ~ 5500 6000
-Wire Wire Line
-	4750 6000 4950 6000
 Wire Wire Line
 	5700 6700 5800 6700
 Wire Wire Line
-	5800 6700 5800 6000
-Wire Wire Line
-	6100 7000 5900 7000
-Wire Wire Line
 	4750 5600 5200 5600
-Wire Wire Line
-	5200 6400 5200 7000
 Wire Wire Line
 	5200 6400 5300 6400
 Wire Wire Line
 	4750 5700 5200 5700
 Text Label 6100 5700 2    50   ~ 0
 ESP_RX
-Wire Wire Line
-	5250 6000 5500 6000
 Wire Wire Line
 	4750 6700 5300 6700
 Text Notes 6550 700  0    100  ~ 0
@@ -497,11 +482,6 @@ Wire Wire Line
 	2800 6500 2800 6700
 Wire Wire Line
 	1800 6500 2800 6500
-Wire Wire Line
-	5200 7000 5500 7000
-Connection ~ 5500 7000
-Wire Wire Line
-	5500 7000 5600 7000
 $Comp
 L power:GND #PWR08
 U 1 1 60DB7886
@@ -908,34 +888,6 @@ F 6 "JLC" H 3050 3550 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R9
-U 1 1 60D2CC8E
-P 5750 7000
-F 0 "R9" V 5863 7000 50  0000 C CNN
-F 1 "10K" V 5954 7000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5790 6990 50  0001 C CNN
-F 3 "~" H 5750 7000 50  0001 C CNN
-F 4 "UNIOHM 台湾厚声" H 5750 7000 50  0001 C CNN "Manufacturer"
-F 5 "C25744" H 5750 7000 50  0001 C CNN "PartNumber"
-F 6 "JLC" H 5750 7000 50  0001 C CNN "Source"
-	1    5750 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R6
-U 1 1 60D2D7A1
-P 5100 6000
-F 0 "R6" V 5213 6000 50  0000 C CNN
-F 1 "10K" V 5304 6000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5140 5990 50  0001 C CNN
-F 3 "~" H 5100 6000 50  0001 C CNN
-F 4 "UNIOHM 台湾厚声" H 5100 6000 50  0001 C CNN "Manufacturer"
-F 5 "C25744" H 5100 6000 50  0001 C CNN "PartNumber"
-F 6 "JLC" H 5100 6000 50  0001 C CNN "Source"
-	1    5100 6000
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_US R5
 U 1 1 60F7FA8F
 P 2650 5800
@@ -982,11 +934,11 @@ L Transistor_BJT:BC847BDW1 Q1
 U 1 1 60D52C08
 P 5500 6300
 F 0 "Q1" V 5700 6200 50  0000 R CNN
-F 1 "BC847BVC-7" V 5700 6250 50  0000 L CNN
+F 1 "DDC114TH" V 5700 6250 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-563" H 5700 6400 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 5500 6300 50  0001 C CNN
 F 4 "DIODES 美台" H 5500 6300 50  0001 C CNN "Manufacturer"
-F 5 "C150761" H 5500 6300 50  0001 C CNN "PartNumber"
+F 5 "C526522" H 5500 6300 50  0001 C CNN "PartNumber"
 F 6 "JLC-EXT" H 5500 6300 50  0001 C CNN "Source"
 	1    5500 6300
 	0    1    1    0   
@@ -996,11 +948,11 @@ L Transistor_BJT:BC847BDW1 Q1
 U 2 1 60D556F2
 P 5500 6800
 F 0 "Q1" V 5700 6900 50  0000 L CNN
-F 1 "BC847BVC-7" V 5700 6850 50  0000 R CNN
+F 1 "DDC114TH" V 5700 6850 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-563" H 5700 6900 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 5500 6800 50  0001 C CNN
 F 4 "DIODES 美台" H 5500 6800 50  0001 C CNN "Manufacturer"
-F 5 "C150761" H 5500 6800 50  0001 C CNN "PartNumber"
+F 5 "C526522" H 5500 6800 50  0001 C CNN "PartNumber"
 F 6 "JLC-EXT" H 5500 6800 50  0001 C CNN "Source"
 	2    5500 6800
 	0    -1   -1   0   
@@ -2170,4 +2122,20 @@ Wire Wire Line
 	8050 5700 7750 5700
 Text Notes 4900 4800 0    50   ~ 0
 BZ_EN is LO by default,\nthus BZ1 is not active
+Text Notes 4750 7200 0    50   ~ 0
+Resistor of 10K is integrated\nin PIN 2/5 of DDC114TH
+Wire Wire Line
+	4750 7000 5200 7000
+Wire Wire Line
+	5200 7000 5200 6400
+Connection ~ 5200 7000
+Wire Wire Line
+	5200 7000 5500 7000
+Wire Wire Line
+	5500 6100 5800 6100
+Connection ~ 5800 6100
+Wire Wire Line
+	5800 6100 5800 6700
+Wire Wire Line
+	6100 6100 5800 6100
 $EndSCHEMATC

@@ -146,7 +146,7 @@
   (net 36 "Net-(R14-Pad1)")
   (net 37 /IO5)
   (net 38 "Net-(R10-Pad2)")
-  (net 39 /RMT_RGB)
+  (net 39 /RGB)
 
   (net_class Default "This is the default net class."
     (clearance 0.15)
@@ -181,7 +181,7 @@
     (add_net /LCD_SCL)
     (add_net /LCD_SDA)
     (add_net /LEDK)
-    (add_net /RMT_RGB)
+    (add_net /RGB)
     (add_net /RTS)
     (add_net /USB_RX)
     (add_net /USB_TX)
@@ -675,7 +675,7 @@
       (effects (font (size 0.26 0.26) (thickness 0.04)))
     )
     (pad 2 smd roundrect (at 0.51 0) (size 0.54 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 39 /RMT_RGB))
+      (net 39 /RGB))
     (pad 1 smd roundrect (at -0.51 0) (size 0.54 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 +3V3))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl
@@ -717,7 +717,7 @@
     (pad 2 smd rect (at -0.45 0.45 90) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 3 smd rect (at 0.45 0.45 90) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
-      (net 39 /RMT_RGB))
+      (net 39 /RGB))
     (pad 4 smd rect (at 0.45 -0.45 90) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
     (model ${CUSTOM_DIR}/SK6805-EC15.step
@@ -1462,7 +1462,7 @@
     (pad 43 smd roundrect (at -0.25 -3.4375 135) (size 0.25 0.875) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 +3V3))
     (pad 42 smd roundrect (at 0.25 -3.4375 135) (size 0.25 0.875) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 39 /RMT_RGB))
+      (net 39 /RGB))
     (pad 41 smd roundrect (at 0.75 -3.4375 135) (size 0.25 0.875) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 22 /ESP_TX))
     (pad 40 smd roundrect (at 1.25 -3.4375 135) (size 0.25 0.875) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)

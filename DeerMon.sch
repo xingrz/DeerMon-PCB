@@ -1382,7 +1382,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 3700 10900 3700
 Text Label 11000 3200 2    50   ~ 0
-RMT_RGB
+RGB
 Text Label 10900 3600 2    50   ~ 0
 IO26
 Wire Wire Line
@@ -1850,7 +1850,7 @@ Connection ~ 9600 5500
 Wire Wire Line
 	9600 5500 10000 5500
 Text Label 9000 5800 0    50   ~ 0
-RMT_RGB
+RGB
 Wire Wire Line
 	9000 5800 9600 5800
 Connection ~ 9600 5800

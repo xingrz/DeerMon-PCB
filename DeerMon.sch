@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DeerMon"
-Date "2022-04-04"
-Rev "V1.1"
+Date "2022-04-30"
+Rev "V1.2"
 Comp "XiNGRZ"
 Comment1 ""
 Comment2 ""

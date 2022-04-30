@@ -1873,6 +1873,9 @@ F 0 "U1" H 2750 5650 50  0000 C CNN
 F 1 "CH343P" H 3050 5650 50  0000 L CNN
 F 2 "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm" H 3050 5650 50  0001 L CNN
 F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20211010/C2846043_7FA705E1F14A2906F6A2AFA45FA28209.pdf?Expires=4070880000&OSSAccessKeyId=LTAIJDIkh7KmGS1H&Signature=dWxsw3PzZQlIgqi7wxgM%2BL8tqnw%3D&response-content-disposition=attachment%3Bfilename%3DC2846043_CH343P_2021-10-10.PDF" H 2650 7000 50  0001 C CNN
+F 4 "WCH 南京沁恒" H 3000 6200 50  0001 C CNN "Manufacturer"
+F 5 "C2846043" H 3000 6200 50  0001 C CNN "PartNumber"
+F 6 "JLC-EXT" H 3000 6200 50  0001 C CNN "Source"
 	1    3000 6200
 	1    0    0    -1  
 $EndComp
